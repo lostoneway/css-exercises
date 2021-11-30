@@ -1,0 +1,14 @@
+.blk,
+.yelo {
+    font-family: Helvetica, "Times New Roman", sans-serif;
+    font-size: 28px;
+}
+
+.blk {
+    background-color: black;
+    color: white;
+}
+
+.yelo {
+    background-color: yellow;
+}
