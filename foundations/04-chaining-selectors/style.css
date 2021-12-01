@@ -1,0 +1,14 @@
+/* chaining css, remember no space between classes (.class.room) this selects any element that has both the classes   */
+
+.avatar.proportioned {
+    height: auto;
+    width: 300px;
+}
+
+
+/* height: auto; and adjust your width unless a hardcoded height is needed. adjusting your ht and wt will prevent your page from a dramatic shift of other page contents when they load */
+
+.avatar.distorted {
+    height: 400px;
+    width: 200px;
+}
