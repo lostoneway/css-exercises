@@ -1,35 +1,40 @@
-.para,
-.small-para {
-  color: hsl(0, 100%, 50%);
-}
-
-.small-para {
-  font-size: 12px;
-}
-
-.para {
-  font-size: 22px;
-}
-
-.confirm {
-  background: green;
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
-} 
-
-.button {
-  background-color: #ffc0cb;
-  color: black;
-  font-size: 20px;
-}
-
-.child {
-  color: red;
-  font-size: 14px;
-}
-
-div.text {
-  color: green;
-  font-size: 28px;
-}
+   /* grouping selector to style the two elemts sharing the first selector */
+   
+   .para,
+   .small-para {
+       color: hsl(0, 100%, 50%);
+   }
+   
+   .para {
+       font-size: 22px;
+   }
+   /* chaining selector to style element of second selector only */
+   
+   .para.small-para {
+       font-size: 12px;
+   }
+   /* while we don't want a lot of id's the HTML file had two but they were different in id and class allowing us to force one but not have to force the other! */
+   
+   #confirm-button {
+       background: green;
+       color: white;
+       font-size: 20px;
+       font-weight: bold;
+   }
+   
+   .button {
+       background-color: #ffc0cb;
+       color: black;
+       font-size: 20px;
+   }
+   /* here the div class were the same so we used the cascade/specificity to style them since the child was an actual child of the one of the divs*/
+   
+   .text {
+       color: green;
+       font-size: 28px;
+   }
+   
+   .child {
+       color: red;
+       font-size: 14px;
+   }
