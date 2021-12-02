@@ -1,0 +1,8 @@
+/* descendant combinators represented with a single space b/t selectors. it will style elements that match the last selector if they have an ancestor that matches the first selector */
+
+.container .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
