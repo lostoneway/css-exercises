@@ -24,5 +24,6 @@ body {
   width: 200px;
   /* CHANGE ME start small on margin left to move til desire position is achieved */
   padding: 32px;
-  margin-left: 350px;
+  /* At first I used px but realized if I use auto, the left margin receives a share of the unused horizontal space, as determined mainly by the layout mode that is used */
+  margin-left: auto;
 }
