@@ -6,23 +6,23 @@ body {
 .one {
   background: pink;
   border: 3px solid blue;
-  /* CHANGE ME */
-  padding: 0px;
-  margin: 0px;
+  /* CHANGE ME padding changed to get space around contents and margin to gain space between the two block elements */
+  padding: 32px;
+  margin: 10px;
 }
 
 .two {
   background: lightblue;
   border: 3px solid purple;
-  /* CHANGE ME */
-  margin-bottom: 0px;
+  /* CHANGE ME we will change this margin and allow margin collaspe to do its thing */
+  margin-bottom: 50px;
 }
 
 .three {
   background: peachpuff;
   border: 3px solid brown;
   width: 200px;
-  /* CHANGE ME */
-  padding: 0px;
-  margin-left: 0px;
+  /* CHANGE ME start small on margin left to move til desire position is achieved */
+  padding: 32px;
+  margin-left: 350px;
 }
