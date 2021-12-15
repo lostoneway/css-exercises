@@ -5,11 +5,34 @@ body {
 img {
   width: 100px;
   height: 100px;
+
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.plants {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 52px;
+}
+
+.pl-one,
+.pl-two,
+.pl-three,
+.pl-four{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+  text-align: center;
+  max-width: 200px;
+  /* border: 2px solid red; */
+  /* note to self: classes can share a name so you could have called this class just "pl" how you did it is for when you want to target a div in particular. but it works lol. */
 }
 
 /* do not edit this footer */
